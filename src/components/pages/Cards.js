@@ -1,6 +1,11 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import img9 from '../../assets/images/img-9.jpg';
+import img2 from '../../assets/images/img-2.jpg';
+import img3 from '../../assets/images/img-3.jpg';
+import img4 from '../../assets/images/img-4.jpg';
+import img8 from '../../assets/images/img-8.jpg';
 
 function Cards() {
     return (
@@ -10,13 +15,13 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                        src='images/img-9.jpg'
+                        src={img9}
                         text="Explore the hidden waterfall deep inside the Amazon Jungle"
                         label='Adventure'
                         path='/services'
                         />
                         <CardItem
-                        src='images/img-2.jpg'
+                        src={img2}
                         text="Travel through the Island of Wakanda on a cruise"
                         label='Luxury'
                         path='/services'
@@ -24,19 +29,19 @@ function Cards() {
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                        src='images/img-3.jpg'
+                        src={img3}
                         text="Set sail in the Atlantic and visit Uncharted waters"
                         label='Mystery'
                         path='/services'
                         />
                         <CardItem
-                        src='images/img-4.jpg'
+                        src={img4}
                         text="Experience Football on the Himilayan Mountains"
                         label='Adventure'
                         path='/services'
                         />
                         <CardItem
-                        src='images/img-8.jpg'
+                        src={img8}
                         text="Ride through the Sahara on a guided camel tour"
                         label='Discovery'
                         path='/services'
